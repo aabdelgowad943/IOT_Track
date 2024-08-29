@@ -6,8 +6,13 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'first_project';
+  // title: string;
+  // favs: string[];
+  // constructor() {
+  //   this.title = 'first_project';
+  //   this.favs = ['a', 'b', 'c', 'd'];
+  // }
 }
